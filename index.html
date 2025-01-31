@@ -471,7 +471,7 @@
           <p class="title-subscribe">Subscribe</p>
 
           <form class="sub_email">
-            <label for="email">
+            <label class="subscribe-form" for="email">
               <input
                 class="email-box"
                 type="email"
@@ -518,7 +518,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="modal-form">
             <label class="label-form" for="phone">Phone</label>
 
             <div class="input-icon">
@@ -529,7 +529,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="modal-form">
             <label class="label-form" for="modal-email">Email</label>
 
             <div class="input-icon">
@@ -546,21 +546,20 @@
           </div>
 
           <div class="comment-area">
-            <label class="label-form" for="user-comment"
-              >Comment<textarea
-                class="input-form comment"
-                name="comment"
-                rows="10"
-                id="user-comment"
-                name="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </label>
+            <label class="label-form" for="user-comment">Comment</label>
+            <textarea
+              class="input-form comment"
+              name="comment"
+              rows="10"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
 
           <div class="checkbox-box">
             <input
-              class="modal-check"
+              class="visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
