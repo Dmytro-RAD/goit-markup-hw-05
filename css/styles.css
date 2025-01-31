@@ -638,7 +638,7 @@ input {
 }
 
 .x-close {
-  color: #2e2f42;
+  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -649,7 +649,7 @@ input {
 }
 
 .button-close:hover .x-close,
-.button-close:focus + .x-close {
+.button-close:focus .x-close {
   fill: #ffffff;
 }
 
@@ -774,7 +774,7 @@ input {
   align-items: center;
 }
 
-.pr-police-link {
+.pr-policy-link {
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
