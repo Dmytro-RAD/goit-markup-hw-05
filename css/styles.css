@@ -804,7 +804,7 @@ input {
   padding-right: 4px;
 }
 
-.modal-check:checked + .modal-check-text > .modal-check-item {
+.visually-hidden:checked + .modal-check-text > .modal-check-item {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
